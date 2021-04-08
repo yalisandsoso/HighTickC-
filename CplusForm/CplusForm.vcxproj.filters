@@ -27,15 +27,33 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="BaseClass.cpp">
+      <Filter>源文件\core\base-class</Filter>
+    </ClCompile>
     <ClCompile Include="CplusForm.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="BaseClass.cpp">
+    <ClCompile Include="CutChildAndGrandChild.cpp">
+      <Filter>源文件\core\base-class</Filter>
+    </ClCompile>
+    <ClCompile Include="SuperFather.cpp">
+      <Filter>源文件\core\base-class</Filter>
+    </ClCompile>
+    <ClCompile Include="SubDog.cpp">
       <Filter>源文件\core\base-class</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BaseClass.h">
+      <Filter>头文件\core\base-class</Filter>
+    </ClInclude>
+    <ClInclude Include="CutChildAndGrandChild.h">
+      <Filter>头文件\core\base-class</Filter>
+    </ClInclude>
+    <ClInclude Include="SuperFather.h">
+      <Filter>头文件\core\base-class</Filter>
+    </ClInclude>
+    <ClInclude Include="SubDog.h">
       <Filter>头文件\core\base-class</Filter>
     </ClInclude>
   </ItemGroup>

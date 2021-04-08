@@ -7,17 +7,21 @@
 */
 
 #include "BaseClass.h"
+#include "SubDog.h"
 #include <iostream>
 
-#define DEBUG_NUM 1
+#define DEBUG_NUM 2
 
 using namespace VISD;
 
 void testBaseClass();
 
+void testSubDog();
+
 int main()
 {
 	testBaseClass();
+	testSubDog();
 }
 
 void testBaseClass()
@@ -38,5 +42,15 @@ void testBaseClass()
 	std::cout << "baseClass1: " << baseClass1.GetmNumCount() << std::endl;
 	std::cout << "baseClass2: " << baseClass2->GetmNumCount() << std::endl;
 	std::cout << "baseClass3: " << baseClass3->GetmNumCount() << std::endl;
+#endif
+}
+
+void testSubDog()
+{
+#if DEBUG_NUM == 2
+	SubDog subdog;
+	subdog.DieDie();
+	subdog.PadPad();
+
 #endif
 }

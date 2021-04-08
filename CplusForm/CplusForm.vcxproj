@@ -153,9 +153,15 @@
   <ItemGroup>
     <ClCompile Include="BaseClass.cpp" />
     <ClCompile Include="CplusForm.cpp" />
+    <ClCompile Include="CutChildAndGrandChild.cpp" />
+    <ClCompile Include="SubDog.cpp" />
+    <ClCompile Include="SuperFather.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BaseClass.h" />
+    <ClInclude Include="CutChildAndGrandChild.h" />
+    <ClInclude Include="SubDog.h" />
+    <ClInclude Include="SuperFather.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
